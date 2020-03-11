@@ -15,10 +15,11 @@ public class StatisticsService {
         public long calculateAverage(long[] sales) {
             long sum = 0;
             long average = 0;
+            long length = 12;
             for (long sale : sales) {
                 // аналог sum = sum + sale;
                 sum += sale;
-                average = sum / 12;
+                average = sum / length;
             }
             return average;
         }
