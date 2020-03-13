@@ -56,5 +56,5 @@ class StatisticsServiceTest {
     }
 
 }
-\n
+
 
